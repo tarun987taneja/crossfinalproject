@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+<link rel="stylesheet" type="text/css" href="LoginDesign.css">
+</head>
+<!--<body style="background-color:yellow"> -->
+<body background ="a.jpg" >
+
+<div class="container">
+<div class="main">
+<center><h1><u><b><i>Check Your knowledge here</u></b></i></h1></center><br>
+<h2>Please login First with Specified id if u want to be the part of the quiz</h2><br>
+<form id="form_id" method="post" name="myform">
+<label>User Name :</label>
+<input type="text" name="username" id="username"/><br><br>
+<label>Password :</label>
+<input type="password" name="password" id="password"/><br><br>
+<input type="button" value="Login" id="submit" onclick="validate()"/>
+</form>
+</div>
+</div>
+
+<script>
+ 
+function validate(){
+var username = document.getElementById("username").value;
+var password = document.getElementById("password").value;
+if ( username == "admin" && password == "admin"){
+alert ("successfully logged in, hello admin");
+window.location = "main.html"; 
+return false;
+}
+}
+
+</script>
+
+</body>
+</html>

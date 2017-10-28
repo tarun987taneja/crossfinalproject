@@ -1,0 +1,86 @@
+ {
+   
+    "question": "What is the package name of JSON?",
+    "choices": ["com.json","in.json","com.android.JSON","org.json"],
+    "correctAnswer": 3
+  }, {
+    "question": "Mobile apps are a good choice for every company?",
+    "choices": ["True","False","always","never"],
+    "correctAnswer": 1
+  }, {
+    "question": "What is a context in android?",
+    "choices": ["Intent","Content Provider","Broadcast receiver","None of the Above"],
+    "correctAnswer": 0
+  }, {
+    "question": "On which thread services work in android?",
+    "choices": ["Worker Thread","Own Thread"," Main Thread","None of the above"],
+    "correctAnswer": 2
+  }, {
+    "question": "How to store heavy structured data in android?",
+    "choices": ["Shared Preferences","Cursor","SQlite database","Not possible"],
+    "correctAnswer": 2
+  }, {
+    "question": "What is singleton class in android?",
+    "choices": ["A class that can create only one object","Anonymous class","Java class","Manifest file"],
+    "correctAnswer": 0
+  }, {
+    "question": "What is log message in android?",
+    "choices": ["Log message is used to debug a program","Same as printf()","Same as Toast()","None of the above"],
+    "correctAnswer": 0
+  },{
+    "question": "When should you start considering mobile app development for your business?",
+    "choices": ["When your customers or employees ask for apps","When your mobile Web experience lacks features or offers a poor user experience
+","When competitors release their own mobile apps","Any of the above"],
+    "correctAnswer": 3
+  },{
+    "question": "How many protection levels are available in the android permission tag?",
+    "choices": ["There are no permission tags available in android","Normal, kernel, application","Normal, dangerous, signature, and signatureOrsystem","None of the above"],
+    "correctAnswer": 2
+  }, {
+    "question": "Can a class be immutable in android?",
+    "choices": ["No, it can't","Yes, Class can be immutable","Can't make the class as final class","None of the above"],
+    "correctAnswer": 1
+  }, {
+    "question": "What is the size of long variable?",
+    "choices": ["8 bit","16 bit","32 bit","64 bit"],
+    "correctAnswer": 1
+  },{
+    "question": "Which is used to parse an XML document in PHP?",
+    "choices": ["simplexml_load_string()","loadxml()","Both A and B","None of above"],
+    "correctAnswer": 2
+  }, {
+    "question": "What kind of variables a class can consist of?",
+    "choices": ["class variables, instance variables","class variables, local variables, instance variables","class variables","class variables, local variables"],
+    "correctAnswer": 3
+  }, {
+    "question": "What is the default value of byte variable?",
+    "choices": ["0","0.0","null","not defined"],
+    "correctAnswer": 0
+  }, {
+    "question": "What is instance variable?",
+    "choices": ["Instance variables are static variables within a class but outside any method.","Instance variables are variables defined inside methods, constructors or blocks.","Instance variables are variables within a class but outside any method.","None of the above"],
+    "correctAnswer": 2
+  }, {
+    "question": "What is JIT compiler?",
+    "choices": ["JIT improves the runtime performance of computer programs based on bytecode.","JIT is an application development framework","JIT is an implementation of the Java Virtual Machine which executes Java programs.","None of the above"],
+    "correctAnswer": 0
+  }, {
+    "question": "What is function overriding?",
+    "choices": ["If a subclass uses a method that is already provided by its parent class, it is known as Method Overriding.","If a subclass provides a specific implementation of a method that is already provided by its parent class, it is known as Method Overriding.","Both of the above" , "None of the above"],
+    "correctAnswer": 1
+  }, {
+    "question": "When static binding occurs?",
+    "choices": ["Static binding occurs during Compile time","Static binding occurs during load time","Static binding occurs during runtime","None of the above"],
+    "correctAnswer": 0
+  }, {
+    "question": "What is Serialization?",
+    "choices": ["Serialization is the process of writing the state of an object to another object.","Serialization is the process of writing the state of an object to a byte stream.","Both of the above","None of the above"],
+    "correctAnswer": 1
+  
+  }, {
+    "question": "Which of the following is true about String?",
+    "choices": ["String is mutable","String is immutable","String is a data type","None of the above"],
+    "correctAnswer": 1
+  }
+  
+ 
